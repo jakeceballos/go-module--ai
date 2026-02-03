@@ -9,6 +9,7 @@ import (
 	"google.golang.org/genai"
 )
 
+// Test functions for ollama model conversions
 func TestConvertRole(t *testing.T) {
 	tests := []struct {
 		name     string
@@ -693,7 +694,7 @@ func TestConvertResponse(t *testing.T) {
 	t.Run("response with timing metadata", func(t *testing.T) {
 		resp := &api.ChatResponse{
 			Metrics: api.Metrics{
-				TotalDuration:      time.Second,           // 1 second
+				TotalDuration:      time.Second, // 1 second
 				LoadDuration:       100 * time.Millisecond,
 				PromptEvalDuration: 200 * time.Millisecond,
 				EvalDuration:       700 * time.Millisecond,
