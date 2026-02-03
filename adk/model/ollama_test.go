@@ -9,7 +9,6 @@ import (
 	"google.golang.org/genai"
 )
 
-// Test functions for ollama model conversions
 func TestConvertRole(t *testing.T) {
 	tests := []struct {
 		name     string
