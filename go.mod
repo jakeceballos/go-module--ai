@@ -1,4 +1,4 @@
-module github.com/jakeceballos/go-module--ai
+module github.com/jakeceballos/ai-go
 
 go 1.24.4
 
